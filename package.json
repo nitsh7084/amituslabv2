@@ -1,0 +1,23 @@
+{
+
+"name":"AmitusVersion3",
+"version":"0.1.0",
+
+"devDependencies" : {
+
+"grunt-contrib-jshint" : "*",
+"grunt-contrib-concat" : "*",
+"grunt-contrib-uglify" : "*",
+"jpegtran-bin": "0.2.0",
+"grunt-contrib-imagemin" : "*",
+"grunt-contrib-livereload" : "*",
+"grunt-contrib-csslint" : "*",
+"grunt-mocha" : "*",
+"grunt-contrib-cssmin" : "*"
+
+
+}
+
+
+}
+
