@@ -1,5 +1,17 @@
 
 
+.slide_text_container_1{
+margin-top:7%;
+}
+#slide_text_start1{
+margin-left:10%;
+margin-top:-1%;
+}
+#slide_text_start1 .slide_sentence{
+font-size:48px;
+line-height:62px;
+}
+
 @media only screen and (min-width : 320px) and (max-width:480px){
 
 
@@ -344,13 +356,27 @@ margin-left:-22%;
 .amitus_letter{
 font-size:82px;
 }
+.slide_nav_menu_line{
+top:34px;
+left:23px;
+}
+#contact_form_textarea{
+width:420px;
+}
+.contact_form_submit_button{
+margin-left:25%;
+}
+#works_item_container4 .works_item_info_container {
+padding-top:10%;
+}
+
 
 }
 
 
 
 
-@media only screen and (min-width:1024px) and (max-width:1366px){
+@media only screen and (min-width:1024px) and (max-width:1365px){
 
 
 .slide_logo{ 
@@ -381,14 +407,44 @@ text-align:center;
 font-size:82px;
 }
 
+#contact_form_textarea{
+width:420px;
+}
+.contact_form_submit_button{
+margin-left:25%;
+}
+.contact_we_are_here{
+top:20%;
+left:64%;
+}
+.slide_text_container_1{
+margin-top:7%;
+}
+
 }
 
 
 
-@media only screen and (min-width:1366px){
-
+@media only screen and (min-width:1367px){
+ 
 #slide_text_start1{
 margin-top:-5%;
 }
+.contact_form_content{
+margin:4% 28%;
+}
+.contact_form_submit_button{
+margin-left:-24%;
+margin-top:123%;
+}
+.contact_form_submit_button{
+margin-left:-450%;
+}
 
+}
+
+@media only screen and (min-width:1156px) and (max-width:1365px){
+.contact_form_submit_button{
+margin-left:45%;
+}
 }

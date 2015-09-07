@@ -13,6 +13,7 @@ $('.amitus_letter:nth-child('+num+')').removeClass('show');
 
 
 setTimeout(function(){
+$('body').removeClass('overflow_y');
 $('.slide_nav_new_menu_container').addClass('show');
 },6500);
 
@@ -79,7 +80,7 @@ $('.opening_top_word').addClass('visible');
 setTimeout(function(){
 blink_amitus();
 },1800);
-},1400);
+},800);
 
 $('.slide_nav_new_menu_container').bind('click',function(e){
 if($('.slide_nav_new_menu_container').hasClass('open')){
@@ -290,7 +291,7 @@ setInterval(function(){
 
 var scrolled = $(document).scrollTop();
 console.log(scrolled);
-if(scrolled >= 500){
+if(scrolled >= 420){
 show_team = true;
 show_timeline_elements(scrolled);
 }
@@ -324,14 +325,14 @@ show_timeline_desc('timeline_event_desc1');
 
 }
 
-if(scroll_top > timeline_offset-50 && scroll_top < timeline_offset+100){
+if(scroll_top > timeline_offset-50){
 
 show_timeline_ball('timeline_ball2');
 show_timeline_desc('timeline_event_desc2');
 
 }
 
-if(scroll_top > timeline_offset+100 && scroll_top < timeline_offset+250){
+if(scroll_top > timeline_offset+100){
 
 show_timeline_ball('timeline_ball3');
 show_timeline_desc('timeline_event_desc3');
@@ -339,7 +340,7 @@ show_timeline_desc('timeline_event_desc3');
 }
 
 
-if(scroll_top > timeline_offset+250 && scroll_top < timeline_offset+400){
+if(scroll_top > timeline_offset+250){
 
 show_timeline_ball('timeline_ball4');
 show_timeline_desc('timeline_event_desc4');
@@ -347,7 +348,7 @@ show_timeline_desc('timeline_event_desc4');
 }
 
 
-if(scroll_top > timeline_offset+400 && scroll_top < timeline_offset+550){
+if(scroll_top > timeline_offset+400){
 
 show_timeline_ball('timeline_ball5');
 show_timeline_desc('timeline_event_desc5');

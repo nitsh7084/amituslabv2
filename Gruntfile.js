@@ -70,7 +70,7 @@ grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-contrib-imagemin');
 grunt.loadNpmTasks('grunt-mocha');
 
-grunt.registerTask('default',['concat','uglify','mocha']);
+grunt.registerTask('default',['concat','uglify']);
 
 
 }
